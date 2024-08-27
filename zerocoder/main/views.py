@@ -4,13 +4,13 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("<h1>Это мой первый проект на Django</h1>")
+    return render(request, 'main/index.html')
 
 def new(request):
-    return HttpResponse("<h1>Это вторая страница проекта на Django</h1>")
+    return render(request, 'main/new.html')
 
-def new_2(request):
-    return HttpResponse("<h1>Это 3 страница проекта на Django</h1>")
+def new2(request):
+    return HttpResponse("<h1>Это 2-я страница проекта на Django</h1>")
 
 def new3(request):
-    return HttpResponse("<h1>Это ретья страница проекта на Django</h1>")
+    return HttpResponse("<h1>Это третья страница проекта на Django</h1>")
