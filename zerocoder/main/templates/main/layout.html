@@ -18,8 +18,8 @@
         <span>CatDjango</span>
         {% include 'main/nav.html'%}
         <ul>
-            <li><a href="">Главная</a></li>
-            <li><a href="">Второстепенная</a></li>
+            <li><a href="{% url 'home' %}">Главная</a></li>
+            <li><a href="{% url 'page2' %}">Второстепенная</a></li>
         </ul>
     </aside>
     <main>
