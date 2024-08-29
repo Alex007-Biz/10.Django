@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edfe1c51-7b0b-474d-a5a4-3f51cb890913" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zerocoder/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zerocoder/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zerocoder/main/templates/main/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/new.html" afterDir="false" />
-    </list>
+    <list default="true" id="edfe1c51-7b0b-474d-a5a4-3f51cb890913" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,5 +63,16 @@
       <updated>1724779702499</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
