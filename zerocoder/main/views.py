@@ -13,7 +13,7 @@ def new(request):
     return render(request, 'main/new.html')
 
 def new2(request):
-    return HttpResponse("<h1>Это 2-я страница проекта на Django</h1>")
+    return HttpResponse("<h1>Это 22-я страница проекта на Django</h1>")
 
 def new3(request):
     return HttpResponse("<h1>Это третья страница проекта на Django</h1>")
