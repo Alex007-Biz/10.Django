@@ -1,13 +1,15 @@
 from django.shortcuts import render
+from .models import News_post
 
 # Create your views here.
 from django.http import HttpResponse
 
 def index(request):
-    data = {
-        'caption':"CatDjango"
-    }
-    return render(request, 'main/index.html', data)
+    # data = {
+    #     'caption':"CatDjango"
+    # }
+    news = News_post.objects.all()
+    return render(request, 'main/index.html',{'news': news})
 
 def new(request):
     return render(request, 'main/new.html')
