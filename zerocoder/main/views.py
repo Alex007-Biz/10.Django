@@ -19,3 +19,6 @@ def new2(request):
 
 def new3(request):
     return HttpResponse("<h1>Это третья страница проекта на Django</h1>")
+
+def create_news(request):
+    return render(request, 'main/add_new_post.html')
